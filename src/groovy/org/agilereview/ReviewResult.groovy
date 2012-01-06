@@ -13,16 +13,16 @@ class ReviewResult {
         yourScore.round(precision)
     }
     def getTeamAverage(){
-        yourScore.round(precision)
+        teamAverage.round(precision)
     }
     def getRoleAverage(){
-        yourScore.round(precision)
+        roleAverage.round(precision)
     }
     def getMinAnswer(){
-        yourScore.round(precision)
+        minAnswer.round(precision)
     }
     def getMaxAnswer(){
-        yourScore.round(precision)
+        maxAnswer.round(precision)
     }
 
 }

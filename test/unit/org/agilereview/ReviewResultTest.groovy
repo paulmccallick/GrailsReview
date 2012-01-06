@@ -38,6 +38,21 @@ class ReviewResultTest extends GrailsUnitTestCase{
         assertEquals res.yourScore   ,0.67
         
         
-    } 
+    }
+
+    void test_basic_getters_setters(){
+        def res = new ReviewResult()
+        res.maxAnswer   = 1
+        res.minAnswer   = 2
+        res.roleAverage = 3
+        res.teamAverage = 4
+        res.yourScore   = 5
+
+        assertEquals res.maxAnswer   ,1
+        assertEquals res.minAnswer   ,2
+        assertEquals res.roleAverage ,3
+        assertEquals res.teamAverage ,4
+        assertEquals res.yourScore   ,5
+    }
     
 }
